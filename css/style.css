@@ -895,25 +895,6 @@ body {
 }
 
 
-/* Swiper Pagination */
-/* 
-.swiper-pagination {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.swiper-slide {
-  display: flex;
-  height: auto;
-}
-
-.swiper-slide .service-card {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-} */
-
-
 /* location  section */
 .marquee-container {
   height: 80px;
@@ -966,6 +947,7 @@ body {
 }
 
 .support-service-card h4 {
+  color: #0d2c54;
   font-size: 1.25rem;
   margin-bottom: 1rem;
   font-weight: 600;
@@ -2042,6 +2024,7 @@ footer a:hover {
 .footer-custom p, 
 .footer-custom li, 
 .footer-custom a {
+  text-decoration: none;
     color: #ffffff;
 }
 
@@ -2151,7 +2134,6 @@ footer a:hover {
     }
 }
 /* testimonials background */
-/* Base Section */
 .testimonial-section {
     position: relative;
     /* background-color: #f0f8f8; soft light background */
