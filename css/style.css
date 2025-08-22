@@ -201,10 +201,10 @@ p {
 }
 
 .btn-dark {
-  background: #0d2c54;
+  background: #0d2c54 !important;
   /* Dark Blue */
-  color: #fff;
-  border: none;
+  color: #fff !important;
+  border: none !important;
 }
 
 .btn-dark:hover {
@@ -1889,7 +1889,6 @@ footer a:hover {
 .city i {
   font-size: 28px;
   color: #5bb286;
-  /* Green icons */
   margin-bottom: 8px;
   display: block;
 }
@@ -1930,18 +1929,14 @@ footer a:hover {
   .cities-box {
     position: relative;
     top: auto;
-    /* remove absolute positioning */
     left: auto;
     transform: none;
     width: 90%;
     margin: -350px auto 0 auto;
-    /* move up to overlap nicely */
     border-radius: 12px;
     padding: 15px;
     box-shadow: none;
-    /* remove shadow for transparent look */
     background: transparent;
-    /* slightly transparent */
     z-index: 2;
   }
 
