@@ -491,13 +491,11 @@ p {
       padding-bottom: 250px;
       /* optional, more space below */
     }
-
     .content-column {
       margin-top: 0;
       /* Remove extra margin if any */
     }
   }
-
 }
 
 /* Mobile / Tablet */
@@ -616,6 +614,16 @@ p {
   font-size: 1.1rem;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .choose-area .section-heading {
+  text-align: center;
+}
+.choose-area {
+  padding-top: 30px;
+}
+
+
 }
 
 /* Why Choose Us List */
@@ -1808,7 +1816,7 @@ footer a:hover {
 .cities-section .section-heading {
   font-size: 2.5rem;
   font-weight: 700;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 40px;
   color: #5bb286;
   /* Green main text */
@@ -1826,7 +1834,7 @@ footer a:hover {
 }
 
 .cities-bg {
-  background-image: url('https://images.unsplash.com/photo-1505761671935-60b3a7427bad');
+  
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -1921,7 +1929,6 @@ footer a:hover {
 @media (max-width: 768px) {
   .cities-box {
     position: relative;
-    /* change from absolute to relative */
     top: auto;
     /* remove absolute positioning */
     left: auto;
@@ -1981,17 +1988,6 @@ footer a:hover {
   display: none;
 }
 
-/* Mobile Fix */
-@media (max-width: 768px) {
-  .cities-section .section-heading {
-    font-size: 1.8rem;
-    /* smaller heading */
-    text-align: center;
-    /* force center */
-    margin: 0 auto 20px;
-    /* keep space below */
-  }
-}
 
 /* Mobile view */
 @media (max-width: 768px) {
