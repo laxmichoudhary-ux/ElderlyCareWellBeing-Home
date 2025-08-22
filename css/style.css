@@ -4,6 +4,17 @@ body {
   line-height: 24px;
   color: #131730;
 }
+/* fonts styles start */
+.text {
+  color: #67687a;
+  font-size: 16px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* fonts styles end */
+
 .header-content {
   display: flex;
   text-align: end;
@@ -501,23 +512,17 @@ p {
 .whyChooseUs ul li {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 15px;
+  margin-bottom: 1px !important;
   color: #333;
   font-size: 17px;
 }
 .whyChooseUs ul li i.custom-icon {
-  font-size: 18px;
-  color: #5bb286;
-  margin-top: 3px;
+  font-size: 38px;
+  color: #0d2c54;
+  margin-top: -15px;
 }
 .whyChooseUs ul li i.custom-icon-warning {
   color: #FFC107;
-}
-.whyChooseUs ul li span {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 17px;
-  color: #0d2c54;
-  margin-left: 12px;
 }
 .choose-img {
   width: 500px;
@@ -546,27 +551,11 @@ p {
   margin: 0;
   padding: 0;
 }
-.whyChooseUs ul li i.icon-red {
-  padding: 15px;
-  font-size: 18px;
-  color: #fff;
-  background-color: #900;
-  border-radius: 50%;
-  display: inline-flex;
-  text-align: center;
-  justify-content: center;
-  margin-top: 2px;
-}
+
 .whyChooseUs ul li {
   display: flex;
   align-items: flex-start;
   margin-bottom: 15px;
-}
-.whyChooseUs ul li span {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 17px;
-  color: #000;
-  margin-left: 15px;
 }
 .AboutUs {
   margin-top: 45px;
@@ -629,13 +618,10 @@ p {
 }
 .service-title {
   font-size: 1.25rem;
+  font-family: "Kumbh Sans", sans-serif;
   font-weight: 600;
   margin-bottom: 10px;
   color: #0d2c54;
-}
-.service-text {
-  font-size: 0.95rem;
-  color: #555;
 }
 /* Pagination container below the slider */
 .swiper-pagination {
@@ -691,12 +677,6 @@ body {
 .services-section {
   padding: 60px 0;
 }
-.section-title {
-  font-size: 2.2rem;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 50px;
-}
 .service-card {
   border: none;
   border-radius: 20px;
@@ -730,15 +710,6 @@ body {
   font-size: 2rem;
   color: #5bb286;
   margin-bottom: 15px;
-}
-.service-title {
-  font-weight: bold;
-  margin-bottom: 10px;
-  font-size: 1.2rem;
-}
-.service-text {
-  font-size: 14px;
-  color: #555;
 }
 @media (max-width: 768px) {
   .service-img {
@@ -793,16 +764,6 @@ body {
   height: 220px;
   width: 100%;
   object-fit: cover;
-}
-.support-service-card h4 {
-  color: #0d2c54;
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-  font-weight: 600;
-}
-.support-service-card ul {
-  font-size: 0.95rem;
-  color: #555;
 }
 /* who we serve  */
 .serve-tile {
@@ -933,21 +894,10 @@ footer a:hover {
   background: #e63946;
   border-radius: 4px;
 }
-.tagline {
-  font-size: 1.2rem;
-  border-left: 4px solid #0d6efd;
-  padding-left: 10px;
-  
-}
-.highlight {
-  border-bottom: 2px dashed #ff6b6b;
-  padding-bottom: 6px;
-  font-weight: 600;
-  font-size: 1.1rem;
-}
-.description {
-  font-size: 1rem;
-  line-height: 1.6;
+ .description {
+  font-size: 16px;
+  line-height: 30px;
+   font-family: "Kumbh Sans", sans-serif;
   background: #fff8e1;
   border-radius: 10px;
   padding: 12px 16px;
@@ -1068,14 +1018,6 @@ footer a:hover {
 .content-side {
   padding-right: 40px;
 }
-.sub-title {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #5bb286;
-  margin-bottom: 10px;
-}
 .main-title {
   font-size: 32px;
   font-weight: 700;
@@ -1105,17 +1047,6 @@ footer a:hover {
   border-radius: 50%;
   border: 4px solid #5bb286;
 }
-.testimonial-card h4 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #0d2c54;
-}
-.testimonial-card p {
-  font-size: 15px;
-  color: #555;
-  line-height: 1.5;
-}
 .testimonial-card {
   background: #fff;
   border-radius: 20px;
@@ -1130,12 +1061,6 @@ footer a:hover {
   margin-bottom: 20px;
   object-fit: cover;
   border: 5px solid #f5f5f5;
-}
-.sec-title .sub-title {
-  color: #ff6b6b;
-  font-weight: 600;
-  display: block;
-  margin-bottom: 10px;
 }
 /* new who we serve  */
 .who-we-serve {
@@ -1160,15 +1085,6 @@ footer a:hover {
   position: relative;
   z-index: 2;
   margin-bottom: 60px;
-}
-.section-title .sub-title {
-  font-size: 16px;
-  font-weight: 600;
-  color: #0d2c54;
-  display: block;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
 }
 .section-title .main-title {
   font-size: 32px;
@@ -1224,18 +1140,6 @@ footer a:hover {
   font-size: 22px;
   margin: -50px auto 15px auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-.blog-title {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: #0d2c54;
-}
-.blog-desc {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 0;
-  line-height: 1.6;
 }
 .who-we-serve .pattern-bg {
   position: absolute;
@@ -1598,10 +1502,7 @@ footer a:hover {
   position: relative;
   z-index: 1;
 }
-.footer-custom h5,
-.footer-custom h6 {
-  color: #5bb286;
-}
+
 .footer-custom p,
 .footer-custom li,
 .footer-custom a {
@@ -1647,6 +1548,9 @@ footer a:hover {
 }
 .about-section .subheading {
   color: #5bb286 !important;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Kumbh Sans", sans-serif !important;
 }
 .about-section .section-heading span {
   color: #5bb286;
@@ -1720,12 +1624,12 @@ footer a:hover {
   z-index: 1;
 }
 .testimonial-section .sub-title {
-  display: block;
-  font-weight: 600;
-  color: #5bb286;
-  margin-bottom: 10px;
-  font-size: 14px;
-  letter-spacing: 1px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #5bb286;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 .testimonial-section .main-title {
   color: #0d2c54;
@@ -1750,14 +1654,6 @@ footer a:hover {
   margin: 0 auto 15px;
   overflow: hidden;
   border-radius: 50%;
-}
-.testimonial-card h4 {
-  color: #0d2c54;
-  margin-bottom: 10px;
-}
-.testimonial-card p {
-  color: #555;
-  font-size: 14px;
 }
 /* Owl Carousel adjustments */
 .owl-carousel .owl-stage {
@@ -1791,4 +1687,12 @@ footer a:hover {
     text-align: center;
   }
 }
+.footer-title {
+   color: #5bb286;      
+  font-size: 18px;        
+  font-weight: 700;       
+  margin-bottom: 15px;    
+  text-transform: uppercase; 
+}
+
 
